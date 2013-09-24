@@ -30,11 +30,10 @@ gem 'jbuilder', '~> 1.2'
 group :development, :test do 
   gem 'rspec-rails' 
   gem 'capybara'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'shoulda'
   gem 'valid_attribute'
-
-  gem 'pry-rails'
+  gem 'pry'
   gem 'launchy'
 end
 
